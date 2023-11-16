@@ -15,6 +15,8 @@ function App() {
       return currentValue - 1
     })
   }
+
+  window.setCounter = setCounter
   return (
     <div>
       <h3>counter: {counter}</h3>
