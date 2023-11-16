@@ -15,8 +15,6 @@ function App() {
       return currentValue - 1
     })
   }
-
-
   return (
     <div>
       <h3>counter: {counter}</h3>
